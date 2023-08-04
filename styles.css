@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/Fond-Site-v01.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: left center;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 685px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .overlay-image {
+    max-height: 675px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .overlay-image {
+    max-height: 592px;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .overlay-image {
+    max-height: 580px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .overlay-image {
+    max-height: 500px;
+  }
+}
