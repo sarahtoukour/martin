@@ -48,3 +48,9 @@ html {
     max-height: 500px;
   }
 }
+
+@media screen and (max-width: 386px) {
+  .overlay-image {
+    max-width: 370px;
+  }
+}
