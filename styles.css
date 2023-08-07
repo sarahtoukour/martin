@@ -21,36 +21,24 @@ html {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  max-height: 685px;
+  height: 71vh;
   margin-top: 5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .overlay-image {
-    max-height: 675px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .overlay-image {
-    max-height: 592px;
-  }
-}
-
-@media screen and (max-width: 494px) {
-  .overlay-image {
-    max-height: 580px;
+    height: 66vh;
   }
 }
 
 @media screen and (max-width: 450px) {
   .overlay-image {
-    max-height: 500px;
+    height: 60vh;
   }
 }
 
 @media screen and (max-width: 386px) {
   .overlay-image {
-    max-width: 370px;
+    height: 60vh;
   }
 }
